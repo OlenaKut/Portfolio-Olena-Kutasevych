@@ -1,0 +1,42 @@
+:root {
+  --branding-color: rgb(3, 211, 208);
+  --main-text-color: rgb(23, 21, 21);
+  --second-text-color: rgb(255, 255, 255);
+  --background-color: rgb(237, 252, 251);
+  --heading-font-family: "Merriweather", serif;
+  --default-font-family: "Catamaran", sans-serif;
+}
+
+h5 {
+  font-family: var(--heading-font-family);
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+h1 {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: 86px;
+  margin-bottom: 20px;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.hero {
+  font-family: var(--default-font-family);
+  color: var(--main-text-color);
+  background: var(--background-color);
+  text-align: center;
+  padding: 160px 10px;
+}
+.ukraine {
+  width: 30px;
+}
+.btn-branding {
+  background: var(--branding-color);
+  color: var(--second-text-color);
+  line-height: 24px;
+  font-size: 18px;
+  border-radius: 4px;
+}
