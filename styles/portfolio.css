@@ -39,19 +39,19 @@
   background: var(--branding-color);
   color: var(--second-text-color);
   line-height: 24px;
-  font-size: 18px;
+  font-size: 20px;
   border-radius: 4px;
 }
 .btn-branding:hover {
   color: var(--branding-color);
   background: var(--second-text-color);
   line-height: 24px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   border-radius: 4px;
 }
 .first-text {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 600;
   font-family: var(--default-font-family);
   color: var(--main-text-color);
@@ -63,7 +63,7 @@
 }
 .shecodes:hover {
   color: var(--shecodes-color);
-  font-size: 22px;
+  font-size: 23px;
   font-weight: 700;
 }
 
@@ -79,28 +79,28 @@ h2 {
   font-weight: 600;
 }
 p {
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 22px;
+  line-height: 35px;
 }
 
 .btn-branding-outline {
   background: var(--branding-color);
   color: var(--second-text-color);
   line-height: 10px;
-  font-size: 16px;
+  font-size: 20px;
   border-radius: 4px;
 }
 .btn-branding-outline:hover {
   background: var(--branding-color);
   color: var(--second-text-color);
   line-height: 10px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
   border-radius: 4px;
 }
 @media (max-width: 576px) {
   .hero {
-    padding: 50px;
+    padding: 0px;
   }
   .hero h5 {
     font-size: 18px;
@@ -121,10 +121,11 @@ p {
     padding: 10px;
   }
   h2 {
-    font-size: 38px;
+    font-size: 28px;
   }
   p {
     font-size: 14px;
+    line-height: 24px;
   }
   .website-link {
     margin: 0 auto;
@@ -183,6 +184,7 @@ p {
   }
   .foto {
     margin: 20px auto;
+    
   }
 }
 @media (max-width: 1100px) {
@@ -193,4 +195,34 @@ p {
   .about-section-content {
     text-align: center;
   }
+
+}
+.work-section-content {
+  margin: 100px 70px;
+}
+.work-section-h1 {
+  font-family: var(--heading-font-family);
+  font-size: 50px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .work-section-h1 {
+    font-size: 38px;
+  }
+}
+.work-section-h3 {
+  font-family: var(--heading-font-family);
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.work-image-weather {
+  background: var(--background-color);
+  padding: 70px 0px;
+}
+@media (max-width: 1400px) {
+  .work-image-weather {
+  
+  padding: 45px 0px;
 }
