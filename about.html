@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="That is website about Front-End developer Olena Kytasevech, based in Sweden - About-page"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,7 +21,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
-    <title>About-page-portfolio-ok.netlify.app</title>
+    <title>About Olena - portfolio-ok.netlify.app</title>
   </head>
   <body>
     <div class="container-fluid">
@@ -27,17 +31,19 @@
           <p class="logo-text mb-0 d-none d-md-block">Olena Kutasevych</p>
         </div>
         <ul>
-          <li><a href="/index.html">Home</a></li>
-          <li class="active"><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/index.html" title="Homepage">Home</a></li>
+          <li class="active">
+            <a href="/about.html" title="About Olena">About</a>
+          </li>
+          <li><a href="/work.html" title="Olena's Work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Olena">Contact</a></li>
         </ul>
       </nav>
     </div>
     <div class="about-section container-fluid">
       <div class="row">
         <div class="col-lg-6">
-          <div class="about-section-content">
+          <div class="about-section-content p-0 px-lg-5">
             <h1 class="m-lg-4 m-2 about-section-h1 text-muted">
               Hi! I am Olena Kutasevych
             </h1>
@@ -58,17 +64,20 @@
               discover new things for myself.
             </p>
             <a href="/work.html"
-              ><button class="btn btn-branding-outline p-3 m-lg-4 m-2 shadow">
+              ><button
+                class="btn btn-branding-outline p-3 ms-4 shadow"
+                title="Olena's Works"
+              >
                 View my projects
               </button></a
             >
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 text-center">
           <img
             src="src/foto.jpg"
-            alt="My foto"
-            class="foto w-75 img-fluid rounded-4 m-lg-5 mt-5"
+            alt="Foto Olena Kutasevych" 
+            class="foto w-75 img-fluid rounded-4 mt-5"
           />
         </div>
       </div>
@@ -82,10 +91,11 @@
               Let's work together and we can be one of the best teams
             </p>
           </div>
-          <div>
+          <div class="footer-contact-button">
             <a
               href="/contact.html"
               class="btn btn-branding-outline p-3 p-sm-4 shadow footer-btn-contact-me"
+              title="Contact Olena"
               >Contact me</a
             >
           </div>
@@ -94,23 +104,41 @@
           <a
             class="contact-footer text-decoration-none text-center"
             href="mailto:cundrochka@gmail.com"
-            title="Front-end developer - Olena Kutasevych - Mail me"
+            title="Mail Olena"
             target="_blank"
             >cundrochka@gmail.com</a
           >
           <div class="social-media m-3">
-            <a href="https://github.com/OlenaKut" target="_blank"
+            <a
+              href="https://github.com/OlenaKut"
+              target="_blank"
+              title="GitHub Profile"
               ><i class="fa-brands fa-github m-2 social-media-link"></i
             ></a>
-            <a href="https://www.facebook.com/cundrochka" target="_blank"
+            <a
+              href="https://www.facebook.com/cundrochka"
+              target="_blank"
+              title="Facebook Profile"
               ><i class="fa-brands fa-facebook m-2 social-media-link"></i
             ></a>
-            <a href="https://www.instagram.com/helenkutasevych/" target="_blank"
+            <a
+              href="https://www.instagram.com/helenkutasevych/"
+              target="_blank"
+              title="Instagram Profile"
               ><i class="fa-brands fa-instagram m-2 social-media-link"></i
             ></a>
           </div>
         </div>
       </footer>
+      <h5 class="text-center">
+        ✌️ This website was coded by Olena Kutasevych, and is
+        <a
+          href="https://github.com/OlenaKut/Portfolio-Olena-Kutasevych"
+          target="_blank"
+          title="GitHub Profile"
+          >open-sourced</a
+        >
+      </h5>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
